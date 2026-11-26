@@ -1,0 +1,15 @@
+1. I used EasyOCR to extract text from answer sheet images.
+2. The extracted text is processed line by line.
+3. Question numbers are identified using regular expressions.
+4. Answers are grouped according to their question numbers.
+5. I created my own answer key for evaluation.
+6. Each extracted answer is compared with the expected answer.
+7. A score is generated for each answer.
+8. Confidence levels are assigned based on the matching result.
+9. Low-confidence answers are flagged for human review.
+10. The output is saved in JSON format.
+11. The current scoring method uses basic text matching.
+12. It may not correctly evaluate answers written in different words.
+13. OCR may struggle with handwriting, diagrams and crossed-out text.
+14. With more time, I would use semantic similarity or an NLP model for scoring.
+15. I would also improve multi-page answer handling and confidence calibration.

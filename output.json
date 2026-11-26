@@ -1,0 +1,10 @@
+[
+    {
+        "question_no": "1",
+        "extracted_answer": "What is Machine Learning? Machine Learning allows computers to learn from data and predictions without being explicitly programmed for every task make",
+        "score": 0,
+        "expected_answer": "Machine learning allows computers to learn from data and make predictions without being explicitly programmed.",
+        "confidence": "Low",
+        "reason": "Answer requires human review."
+    }
+]
